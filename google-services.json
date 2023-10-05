@@ -1,0 +1,30 @@
+{
+  "_comments": "Configuration For Andriod",
+  "project_info": {
+    "project_number": "1081728177375",
+    "project_id": "cityrepoters",
+    "storage_bucket": "cityrepoters.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081728177375:android:ca7346716b5ecb9009056a",
+        "android_client_info": {
+          "package_name": "com.cityreporters"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSKj65Opj_GrvNg63PIX9n4qiI-gCceT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

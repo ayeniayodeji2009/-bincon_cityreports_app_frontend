@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Firebase Auth -->
+    <!-- <universal-links>
+    <host name="cityreporter.page.link" scheme="https" />
+    <host name="cityrepoters.firebaseapp.com" scheme="https">
+    </universal-links> -->
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <edit-config xmlns:android="http://schemas.android.com/apk/res/android"
+                 file="app/src/main/AndroidManifest.xml"
+                 mode="merge"
+                 target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
+    <name>City Reporters</name>
+    <description>City Reporters App (Cordova version)</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <access origin="*" />
+    <allow-navigation href="https://newsapi.org/" />  <!--Server's URL-->
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+
+     <!-- Firebase Auth -->
+    <universal-links>
+        <host name="cityreporter.page.link" scheme="https" />
+        <host name="cityrepoters.firebaseapp.com" scheme="https" />
+    </universal-links>
+</widget>
