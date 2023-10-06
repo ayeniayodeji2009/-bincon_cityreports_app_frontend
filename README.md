@@ -2,11 +2,11 @@ start server - cordova run browser -- --live-reload
 reload server - press F5
 Kill server - ctrl c
 
+# NOTE:
+Project not functioning or working well on hosting site. 
 
-
-
-
-
-
-
-Code snipet build a cordova app of news reporters through their account to add a New Incident, Submitted Incidents Should be Posted Automatically on homepage, Users of the App Should Get Notified When a New Incidents has been added, the Location of the Incident Reported I.e. Geolocation, Longitude & Latitude, Pictures of the reported Incident, Login Functionality for Users to view their respective submitted Incidents in their account
+### Alternative way to make it work
+* Pull this repository in to your IDE.
+* Enter the repository folder through cli.
+* Run 'cordova run browser' in terminal.
+* To reload project after change run 'ctrl + c' in the terminal and 'cordova run browser'.
