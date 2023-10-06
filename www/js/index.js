@@ -1,30 +1,30 @@
 
-var app = {
-  initialize: function() {
-      document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-  },
+// var app = {
+//   initialize: function() {
+//       document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+//   },
 
-  onDeviceReady: function() {
-      this.receivedEvent('deviceready');
+//   onDeviceReady: function() {
+//       this.receivedEvent('deviceready');
       
-      // Your fetch code goes here
-      fetch('http://localhost:8000/.')
-          .then(response => {
-              if (!response.ok) {
-                  throw new Error('Network response was not ok');
-              }
-              return response.json();
-          })
-          .then(data => console.log(data))
-          .catch(error => console.error('There has been a problem with your fetch operation:', error));
-  },
+//       // Your fetch code goes here
+//       fetch('http://localhost:8000/.')
+//           .then(response => {
+//               if (!response.ok) {
+//                   throw new Error('Network response was not ok');
+//               }
+//               return response.json();
+//           })
+//           .then(data => console.log(data))
+//           .catch(error => console.error('There has been a problem with your fetch operation:', error));
+//   },
 
-  receivedEvent: function(id) {
-      console.log('Received Event: ' + id);
-  }
-};
+//   receivedEvent: function(id) {
+//       console.log('Received Event: ' + id);
+//   }
+// };
 
-app.initialize();
+// app.initialize();
 
 
 
